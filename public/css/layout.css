@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap') screen;
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap') screen;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap') screen;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap') screen;
+
+.list-item {
+  display: list-item;
+}
+
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+.button {
+  color: #121212ff;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-family: Inter;
+  border-color: #121212ff;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.button:hover {
+  color: #B22B22;
+  background-color: #EEBC98;
+}
+
+.input {
+  color: #121212ff;
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  font-family: Inter;
+  border-color: #121212ff;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.textarea {
+  color: #121212ff;
+  cursor: auto;
+  padding: 0.5rem;
+  font-family: Inter;
+  border-color: #121212ff;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.btnActive {
+  color: #B22B22;
+  margin-left: 1rem;
+  border-width: 0px;
+  border-radius: 10px;
+  background-color: #EEBC98;
+}
+
+.Heading {
+  font-size: 42px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -2px;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.Button {
+  font-size: 13px;
+  font-family: Inter;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.Subheading {
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: 1.3;
+  letter-spacing: -0.5px;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  text-transform: none;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #F7EDDB;
+}
+
+
+header {
+  width: 100%;
+  height: 182px;
+  display: flex;
+  max-width: auto;
+  align-self: center;
+  align-items: center;
+  padding-top: 26px;
+  padding-left: 48px;
+  border-radius: 4px;
+  padding-right: 48px;
+  flex-direction: column;
+  padding-bottom: 26px;
+  justify-content: flex-start;
+  background-color: #FBE6BE;
+}
+
+.logoHeader {
+  color: rgb(196, 79, 74);
+  font-size: 50px;
+  font-style: normal;
+  font-family: "Exo 2";
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.navBarHeader {
+  width: 100%;
+  height: 47px;
+  display: flex;
+  margin-top: 1rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.txtNavBar {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.itemNavBar {
+  color: #886E3D;
+  margin-left: 1rem;
+  border-width: 0px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #FBE6BE;
+}
+
+.iconNavBar {
+  fill: #886E3D;
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 32px;
+  justify-content: space-between;
+  background-color: #c1736d;
+  position: fixed;
+  bottom: 0;
+}
+
+.logoFooter {
+  color: #FFFFFF;
+  font-size: 25px;
+  font-style: normal;
+  font-family: "Inter";
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.copyright {
+  color: #ffffff;
+}
+
+.containerIconFooter {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.iconFooter {
+  fill: #D9D9D9;
+  width: 24px;
+  height: 24px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media(max-width: 700) {
+  header {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  footer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .copyright {
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
