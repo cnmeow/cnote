@@ -66,7 +66,7 @@ class TaskModel extends Database
         $statement->execute();
 
         $result = $statement->fetch(PDO::FETCH_ASSOC);
-        return $result['userid'];
+        return $result['userId'];
     }
     
     /* getTask() get task by id then return task */
