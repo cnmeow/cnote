@@ -1,8 +1,11 @@
 {
   "functions": {
-    "index.php": {
-      "runtime": "vercel-php@0.6.0"
+    "api": {
+      "handler": "index.php",
+      "runtime": "vercel-php@0.8"
     }
-  }
-
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.php" }
+  ]
 }
