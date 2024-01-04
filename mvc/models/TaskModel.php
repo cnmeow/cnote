@@ -2,6 +2,7 @@
 class TaskModel extends Database
 {
     /* 
+     // postgresql
      CREATE TABLE tasks (
         id SERIAL PRIMARY KEY,
         userId INTEGER REFERENCES users(id) ON DELETE CASCADE,
