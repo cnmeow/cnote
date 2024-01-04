@@ -16,7 +16,7 @@
     <form method="POST" action="" class="rightForm">
       <input name="username" type="text" placeholder="Username (1-30 characters)"
         value="<?php echo (isset($_POST["username"]) ? $_POST["username"] : "") ?>" class="inpForm input" />
-      <input name="password" type="password" id="inpPassword" placeholder="Password (1-30 characters)"
+      <input name="password" type="password" id="inpPassword" placeholder="Password (6-30 characters)"
         value="<?php echo (isset($_POST["password"]) ? $_POST["password"] : "") ?>" class="inpForm input" />
       <div class="showPass">
         <input type="checkbox" onclick="showPassword()" /> <label>Show Password</label>
