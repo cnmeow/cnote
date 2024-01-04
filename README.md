@@ -39,13 +39,14 @@ CNote is a web-based PHP MVC application designed for online note-taking. Users 
 
 3. **Run the Application:**
    - Using XAMPP, WampServer,..:
-     - Start your local server
-     - Access the application through `http://localhost/index.php?url=Login`.
-  - Using PHP:
-    ```bash
-    php -S 127.0.0.1:2106
-    ```
-    - Access the application through `http://127.0.0.1:2106/index.php?url=Login`.
+        - Start your local server
+        - Access the application through `http://localhost/index.php?url=Login`.
+          
+   - Using PHP:
+       ```bash
+       php -S 127.0.0.1:2106
+       ```
+       - Access the application through `http://127.0.0.1:2106/index.php?url=Login`.
 
 ## Usage
 
@@ -70,4 +71,4 @@ CNote is a web-based PHP MVC application designed for online note-taking. Users 
       <img width="1440" alt="image" src="https://github.com/cnmeow/cnote/assets/73975520/2888b909-8aa5-4a47-9614-66b25ba2c9c6">
 
 
-## Author: Cam Nguyen
+## Author: Cam Nguyen 👩‍💻
