@@ -1,124 +1,124 @@
 .container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    min-height: 100vh;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: #F7EDDB;
-  }
-  
-  .inpForm {
-    color: #886E3D;
-    width: 380px;
-    height: 46px;
-    align-self: center;
-    margin-bottom: 1rem;
-    background-color: #FBE6BE;
-  }
-  
-  .formInfo {
-    width: 100%;
-    height: 249px;
-    display: flex;
-    margin-top: 1rem;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  
-  }
-  
-  .submitBtn {
-    margin-top: 1rem;
-    border-width: 0px;
-    border-radius: 8px;
-    background-color: #F5C064;
-    margin-right: 3px;
-    color: rgb(136, 110, 61);
-    font-style: normal;
-    font-weight: 500;
-  
-  }
-  
-  .formContainer {
-  
-    height: 100%;
-    display: flex;
-    align-self: center;
-    align-items: flex-start;
-    margin-left: 0px;
-    margin-right: 0px;
-    flex-direction: column;
-    justify-content: center;
-  
-  }
-  
-  .contentContainer {
-    width: 100%;
-    height: 403px;
-    display: flex;
-    align-self: center;
-    margin-top: 3rem;
-    align-items: flex-start;
-    margin-left: 0px;
-    margin-right: 0px;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  
-  .txtHeading {
-    color: rgb(136, 110, 61);
-    align-self: center;
-    margin-bottom: 10px;
-  }
-  
-  .txtsubtitle {
-    font-size: 18px;
-    align-self: center;
-    text-align: center;
-  }
-  
-  .infoContainer {
-    width: 100%;
-    height: 234px;
-    display: flex;
-    margin-top: 1rem;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  
-  .inpInfo {
-    color: #886E3D;
-    width: 380px;
-    height: 46px;
-    align-self: center;
-    margin-bottom: 1rem;
-    background-color: #FBE6BE;
-  }
-  
-  .btnContainer {
-    flex: 0 0 auto;
-    width: auto;
-    height: 44px;
-    display: flex;
-    align-self: center;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  
-  .btnUser {
-    color: rgb(245, 193, 100);
-    height: 44px;
-    font-size: 18px;
-    align-self: center;
-    font-style: normal;
-    font-weight: 600;
-    margin-left: 0.5rem;
-    border-width: 0px;
-    margin-right: 0.5rem;
-    border-radius: 10px;
-    background-color: rgb(147, 116, 60);
-  }
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #F7EDDB;
+}
+
+.inpForm {
+  color: #886E3D;
+  width: 380px;
+  height: 46px;
+  align-self: center;
+  margin-bottom: 1rem;
+  background-color: #FBE6BE;
+}
+
+.formInfo {
+  width: 100%;
+  height: 249px;
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.submitBtn {
+  margin-top: 1rem;
+  border-width: 0px;
+  border-radius: 8px;
+  background-color: #F5C064;
+  margin-right: 3px;
+  color: rgb(136, 110, 61);
+  font-style: normal;
+  font-weight: 500;
+
+}
+
+.formContainer {
+
+  height: 100%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.contentContainer {
+  width: 100%;
+  height: 403px;
+  display: flex;
+  align-self: center;
+  margin-top: 3rem;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.txtHeading {
+  color: rgb(136, 110, 61);
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+.txtsubtitle {
+  font-size: 18px;
+  align-self: center;
+  text-align: center;
+}
+
+.infoContainer {
+  width: 100%;
+  height: 234px;
+  display: flex;
+  margin-top: 1rem;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.inpInfo {
+  color: #886E3D;
+  width: 380px;
+  height: 46px;
+  align-self: center;
+  margin-bottom: 1rem;
+  background-color: #FBE6BE;
+}
+
+.btnContainer {
+  flex: 0 0 auto;
+  width: auto;
+  height: 44px;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.btnUser {
+  color: rgb(245, 193, 100);
+  height: 44px;
+  font-size: 18px;
+  align-self: center;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  border-width: 0px;
+  margin-right: 0.5rem;
+  border-radius: 10px;
+  background-color: rgb(147, 116, 60);
+}

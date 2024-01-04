@@ -2,7 +2,6 @@
 class TaskModel extends Database
 {
     /* 
-     // postgresql
      CREATE TABLE tasks (
         id SERIAL PRIMARY KEY,
         userId INTEGER REFERENCES users(id) ON DELETE CASCADE,
@@ -67,7 +66,7 @@ class TaskModel extends Database
         $statement->execute();
 
         $result = $statement->fetch(PDO::FETCH_ASSOC);
-        return $result['userId'];
+        return $result['userid'];
     }
     
     /* getTask() get task by id then return task */

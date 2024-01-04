@@ -112,13 +112,13 @@ class Tasks extends Controller
             $this->redirect("Login");
             exit();
         }
-        
+
         // Check if the task is of the user or not
         if (($this->checkTaskOfUser($id)) == false) {
             $this->redirect("Tasks");
             exit();
         }
-        
+
         // If user submit edit task
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $title = isset($_POST['title']) ? $_POST['title'] : '';

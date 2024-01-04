@@ -1,107 +1,107 @@
 .containerContent {
-    width: 100%;
-    height: 456px;
-    display: flex;
-    margin-top: 0px;
-    align-items: flex-start;
-    text-align: center;
-  }
-  
-  .leftContainer {
-    width: 40%;
-    height: 100%;
-    display: flex;
-    align-self: center;
-    align-items: center;
-    margin-left: 0px;
-    margin-right: 0px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #93743C;
-  }
-  
-  .leftTitle {
-    color: #F5C164;
-    font-size: 2em;
-  }
-  
-  .leftSubtitle {
-    color: #FFFFFF;
-    font-size: 17px;
-  }
-  
-  .leftBtn {
-    color: #896E3E;
-    width: 109px;
-    height: 43px;
-    font-size: 18px;
-    font-style: normal;
-    margin-top: 1rem;
-    font-weight: 600;
-    border-width: 0px;
-    border-radius: 10px;
-    background-color: rgb(251, 230, 190);
-  }
-  
-  .rightContainer {
-    width: 60%;
-    height: 100%;
-    display: flex;
-    align-self: center;
-    align-items: flex-start;
-    margin-left: 0px;
-    margin-right: 0px;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .rightTitle {
-    color: #886E3D;
-    font-size: 2em;
-    align-self: center;
-    margin-bottom: 10px;
-  }
-  
-  .rightSubtitle {
-    font-size: 18px;
-    align-self: center;
-    text-align: center;
-  }
-  
-  .rightForm {
-    width: 100%;
-    height: 249px;
-    display: flex;
-    margin-top: 1rem;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .inpForm {
-    color: #886E3D;
-    width: 380px;
-    height: 46px;
-    align-self: center;
-    margin-bottom: 1rem;
-    background-color: #FBE6BE;
-  }
-  
-  .rightBtn {
-    color: #F5C164;
-    width: 129px;
-    height: 44px;
-    font-size: 18px;
-    align-self: center;
-    font-style: normal;
-    font-weight: 600;
-    border-width: 0px;
-    border-radius: 10px;
-    background-color: #93743C;
-  }
-  
-  .showPass {
-    text-align: center;
-    align-self: center;
-    margin-bottom: 1rem;
-  }
+  width: 100%;
+  height: 456px;
+  display: flex;
+  margin-top: 0px;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.leftContainer {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #93743C;
+}
+
+.leftTitle {
+  color: #F5C164;
+  font-size: 2em;
+}
+
+.leftSubtitle {
+  color: #FFFFFF;
+  font-size: 17px;
+}
+
+.leftBtn {
+  color: #896E3E;
+  width: 109px;
+  height: 43px;
+  font-size: 18px;
+  font-style: normal;
+  margin-top: 1rem;
+  font-weight: 600;
+  border-width: 0px;
+  border-radius: 10px;
+  background-color: rgb(251, 230, 190);
+}
+
+.rightContainer {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rightTitle {
+  color: #886E3D;
+  font-size: 2em;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+.rightSubtitle {
+  font-size: 18px;
+  align-self: center;
+  text-align: center;
+}
+
+.rightForm {
+  width: 100%;
+  height: 249px;
+  display: flex;
+  margin-top: 1rem;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inpForm {
+  color: #886E3D;
+  width: 380px;
+  height: 46px;
+  align-self: center;
+  margin-bottom: 1rem;
+  background-color: #FBE6BE;
+}
+
+.rightBtn {
+  color: #F5C164;
+  width: 129px;
+  height: 44px;
+  font-size: 18px;
+  align-self: center;
+  font-style: normal;
+  font-weight: 600;
+  border-width: 0px;
+  border-radius: 10px;
+  background-color: #93743C;
+}
+
+.showPass {
+  text-align: center;
+  align-self: center;
+  margin-bottom: 1rem;
+}

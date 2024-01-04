@@ -1,177 +1,176 @@
 .container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    min-height: 100vh;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: #F7EDDB;
-  }
-  
-  .contentContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-self: center;
-    margin-top: 1rem;
-    align-items: flex-start;
-    margin-left: 0px;
-    margin-right: 0px;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  
-  .txtHeading {
-    color: rgb(136, 110, 61);
-    align-self: center;
-    margin-bottom: 10px;
-  }
-  
-  #importContainer {
-    margin-top: 1rem;
-    flex: 0 0 auto;
-    width: auto;
-    height: 44px;
-    display: flex;
-    align-self: center;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  
-  #infoForm {
-    width: 100%;
-  }
-  
-  .importBtn {
-    color: rgb(245, 193, 100);
-    height: 35px;
-    font-size: 18px;
-    align-self: center;
-    font-style: normal;
-    font-weight: 600;
-    margin-left: 0.5rem;
-    border-width: 0px;
-    margin-right: 0.5rem;
-    border-radius: 10px;
-    background-color: rgb(147, 116, 60);
-  }
-  
-  .uploadBtn {
-  
-    color: #C44F4A;
-    height: 35px;
-    font-size: 18px;
-    align-self: center;
-    font-style: normal;
-    font-weight: 600;
-    margin-left: 0.5rem;
-    border-width: 0px;
-    margin-right: 0.5rem;
-    border-radius: 10px;
-    background-color: #EEE1CA;
-  
-  }
-  
-  .selectFileDiv {
-    color: rgb(147, 116, 60);
-    height: 35px;
-    font-size: 18px;
-    align-self: center;
-    font-style: normal;
-    font-weight: 600;
-    margin-left: 0.5rem;
-    border-width: 0px;
-    margin-right: 0.5rem;
-    border-radius: 10px;
-    background-color: white;
-  }
-  
-  .newTaskContainer {
-    width: 561px;
-    height: 100%;
-    display: flex;
-    padding: 0px;
-    align-self: center;
-    margin-top: 1rem;
-    align-items: flex-start;
-    border-color: #121212ff;
-    border-radius: 8px;
-    margin-bottom: 1rem;
-    flex-direction: column;
-    background-color: #FCEDD6;
-  }
-  
-  .controlContainer {
-    width: 100%;
-    height: 53px;
-    display: flex;
-    padding: 0.5rem;
-    align-items: center;
-    border-radius: 8px;
-    margin-bottom: 1rem;
-    justify-content: flex-start;
-    background-color: #EEE1CA;
-  }
-  
-  .btnControl {
-    border-width: 0px;
-    margin-right: 1rem;
-    border-radius: 8px;
-    background-color: transparent;
-    color: #C44F4A;
-    font-style: normal;
-    font-weight: 600;
-  }
-  
-  .infoContainer {
-    flex: 0 0 auto;
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    margin-bottom: 20px;
-  }
-  
-  .infoContainer2 {
-    flex: 0 0 auto;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    margin-bottom: 20px;
-  }
-  
-  .txtInfo {
-    font-style: normal;
-    margin-top: 0px;
-    font-weight: 500;
-    margin-left: 1rem;
-  }
-  
-  .inpTask {
-    color: #C44F4A;
-    width: 100%;
-    height: 35px;
-    font-size: 20px;
-    margin-top: 0.5rem;
-    margin-left: 0px;
-    border-width: 0px;
-    margin-right: 0px;
-    background-color: transparent;
-  }
-  
-  .statusSelect {
-    padding: 0 0 0 0;
-  }
-  
-  .longinpTask {
-    color: #C44F4A;
-    width: 100%;
-    height: 150px;
-    margin-top: 0.5rem;
-    border-width: 0px;
-    padding-left: 1rem;
-    background-color: transparent;
-  }
-  
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #F7EDDB;
+}
+
+.contentContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  margin-top: 1rem;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.txtHeading {
+  color: rgb(136, 110, 61);
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+#importContainer {
+  margin-top: 1rem;
+  flex: 0 0 auto;
+  width: auto;
+  height: 44px;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+#infoForm {
+  width: 100%;
+}
+
+.importBtn {
+  color: rgb(245, 193, 100);
+  height: 35px;
+  font-size: 18px;
+  align-self: center;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  border-width: 0px;
+  margin-right: 0.5rem;
+  border-radius: 10px;
+  background-color: rgb(147, 116, 60);
+}
+
+.uploadBtn {
+
+  color: #C44F4A;
+  height: 35px;
+  font-size: 18px;
+  align-self: center;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  border-width: 0px;
+  margin-right: 0.5rem;
+  border-radius: 10px;
+  background-color: #EEE1CA;
+
+}
+
+.selectFileDiv {
+  color: rgb(147, 116, 60);
+  height: 35px;
+  font-size: 18px;
+  align-self: center;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  border-width: 0px;
+  margin-right: 0.5rem;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.newTaskContainer {
+  width: 561px;
+  height: 100%;
+  display: flex;
+  padding: 0px;
+  align-self: center;
+  margin-top: 1rem;
+  align-items: flex-start;
+  border-color: #121212ff;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  flex-direction: column;
+  background-color: #FCEDD6;
+}
+
+.controlContainer {
+  width: 100%;
+  height: 53px;
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  justify-content: flex-start;
+  background-color: #EEE1CA;
+}
+
+.btnControl {
+  border-width: 0px;
+  margin-right: 1rem;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #C44F4A;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.infoContainer {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.infoContainer2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.txtInfo {
+  font-style: normal;
+  margin-top: 0px;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.inpTask {
+  color: #C44F4A;
+  width: 100%;
+  height: 35px;
+  font-size: 20px;
+  margin-top: 0.5rem;
+  margin-left: 0px;
+  border-width: 0px;
+  margin-right: 0px;
+  background-color: transparent;
+}
+
+.statusSelect {
+  padding: 0 0 0 0;
+}
+
+.longinpTask {
+  color: #C44F4A;
+  width: 100%;
+  height: 150px;
+  margin-top: 0.5rem;
+  border-width: 0px;
+  padding-left: 1rem;
+  background-color: transparent;
+}
