@@ -1,0 +1,16 @@
+html {
+    font-family: Inter;
+    font-size: 16px;
+  }
+  
+  body {
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+    color: #121212ff;
+    background-color: #FFFFFF;
+  
+  }
