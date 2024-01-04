@@ -2,6 +2,7 @@
 class UserModel extends Database
 {
     /* 
+    // postgresql
     CREATE TABLE users (
         id SERIAL PRIMARY KEY,
         email VARCHAR(255), // In next version, we can use email to login/reset password
