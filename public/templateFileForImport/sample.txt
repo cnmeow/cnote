@@ -1,0 +1,25 @@
+\*
+Task Entry Instructions
+Each task will be represented with rows as follows:
+- The row immediately after the "title:" row is the Title of the Task (must not be left blank, less than 50 characters).
+- The row immediately after the "content:" row is the Content of the Task (optional, but if provided, must be less than 1000 characters).
+- The row immediately after the "duedate:" row is the Due Date of the Task (optional, but if provided, the year must be in the range of [1900 to 2106].
+- The row immediately after the "status:" row is the Status of the Task ('0' for tasks that are not completed and '1' for tasks that are completed.
+
+The first example below for a task with the title 'Do an SE', content 'Kho qua huhu', duedate '05/01/2004', status '1'
+The second example below for a task with title 'EmptyExample', content/duedate/status is empty, 
+
+*/
+title:
+Do an SE
+content:
+Kho qua huhu
+duedate:
+05/01/2024
+status:
+1
+title:
+NEWTXTEMPTY
+content:
+duedate:
+status:
