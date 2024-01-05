@@ -293,6 +293,7 @@ class Tasks extends Controller
     private function checkVaildTask($title, $content, $duedate, $status)
     {
         // Check if title is empty
+        $title = trim($title);
         if ($title == '' || $title == null) {
             return "Title is empty";
         }
