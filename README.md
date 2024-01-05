@@ -1,9 +1,9 @@
-# CNote - Online Note Taking Web Application
+# CNote - Online Task Note-Taking Web Application
 
 ### Is it  CuteNote 😻 ? CongviecNote 📑 ?  CamnguyenNote 👩‍💻 ?  CloudNote ☁️ ? 
 ### Try to find out [https://cnotee.000webhostapp.com/index.php?url=Login](https://cnotee.000webhostapp.com/index.php?url=Login)
 ---
-CNote is a web-based PHP MVC application designed for online note-taking. Users can log in to view, add, edit, mark as done, or delete notes directly on the web platform. Each note consists of a title, content, due date, and a status indicating whether it's completed or not.
+CNote is a web-based PHP MVC application designed for online task note-taking. Users can log in to view, add, edit, mark as done, or delete notes directly on the web platform. Each note consists of a title, content, due date, and a status indicating whether it's completed or not.
 
 ## Features
 
