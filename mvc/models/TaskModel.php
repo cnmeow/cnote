@@ -130,7 +130,7 @@ class TaskModel extends Database
 
     public function findUndoneByTitle($userId, $title)
     {
-        $query = "SELECT * FROM tasks WHERE userId = :userId AND status = 0 AND title ILIKE :title ORDER BY duedate ASC";
+        $query = "SELECT * FROM tasks WHERE userId = :userId AND status = 0 AND LOWER(title) LIKE LOWER(:title) ORDER BY duedate ASC";
         $statement = $this->con->prepare($query);
         $statement->bindParam(':userId', $userId);
         $statement->bindValue(':title', '%' . $title . '%');
@@ -142,7 +142,7 @@ class TaskModel extends Database
 
     public function findDoneByTitle($userId, $title)
     {
-        $query = "SELECT * FROM tasks WHERE userId = :userId AND status = 1 AND title ILIKE :title ORDER BY duedate ASC";
+        $query = "SELECT * FROM tasks WHERE userId = :userId AND status = 1 AND LOWER(title) LIKE LOWER(:title) ORDER BY duedate ASC";
         $statement = $this->con->prepare($query);
         $statement->bindParam(':userId', $userId);
         $statement->bindValue(':title', '%' . $title . '%');
@@ -177,7 +177,7 @@ class TaskModel extends Database
     }
     public function findUndoneByTitleAndDate($userId, $title, $date)
     {
-        $query = "SELECT * FROM tasks WHERE userId = :userId AND status = 0 AND title ILIKE :title AND duedate = :date ORDER BY duedate ASC";
+        $query = "SELECT * FROM tasks WHERE userId = :userId AND status = 0 AND LOWER(title) LIKE LOWER(:title) AND duedate = :date ORDER BY duedate ASC";
         $statement = $this->con->prepare($query);
         $statement->bindParam(':userId', $userId);
         $statement->bindValue(':title', '%' . $title . '%');
@@ -190,7 +190,7 @@ class TaskModel extends Database
 
     public function findDoneByTitleAndDate($userId, $title, $date)
     {
-        $query = "SELECT * FROM tasks WHERE userId = :userId AND status = 1 AND title ILIKE :title AND duedate = :date ORDER BY duedate ASC";
+        $query = "SELECT * FROM tasks WHERE userId = :userId AND status = 1 AND LOWER(title) LIKE LOWER(:title) AND duedate = :date ORDER BY duedate ASC";
         $statement = $this->con->prepare($query);
         $statement->bindParam(':userId', $userId);
         $statement->bindValue(':title', '%' . $title . '%');
