@@ -27,7 +27,17 @@
   align-self: center;
   margin-bottom: 10px;
 }
-
+.importBtnContainer {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  justify-content: center;
+}
 #importContainer {
   margin-top: 1rem;
   flex: 0 0 auto;
