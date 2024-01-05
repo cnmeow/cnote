@@ -4,8 +4,8 @@
     <h1 class="txtHeading">Completed Tasks</h1>
     <div class="controlContainer">
 
-      <a href="/index.php?url=Tasks" class="btnControl button">All</a>
-      <a href="/index.php?url=Tasks/doneTasks" class="btnControl button">Completed</a>
+      <a href="/index.php?url=Tasks" class="btnControl button">Undone tasks</a>
+      <a href="/index.php?url=Tasks/doneTasks" class="btnControl button">Done tasks</a>
       <a href="/index.php?url=Tasks/addTask" class="btnControl button">Add</a>
 
       <form method="POST" action="" id="findForm">

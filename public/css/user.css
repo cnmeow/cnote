@@ -7,6 +7,8 @@
   flex-direction: column;
   justify-content: flex-start;
   background-color: #F7EDDB;
+  padding-bottom: 55px;
+  padding-top: 150px;
 }
 
 .inpForm {

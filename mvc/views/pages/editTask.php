@@ -6,7 +6,7 @@
       <div class="controlContainer">
         <a href="/index.php?url=Tasks" type="button" class="btnControl button">Cancel</a>
         <button type="button" class="btnControl button" id="btnDelete">Delete</button>
-        <button type="button" class="btnControl button" id="btnEdit">Edit</button>
+        <button type="button" class="btnControl button" id="btnEdit">Save changes</button>
       </div>
 
       <form method="POST" action="" id="infoForm">
