@@ -35,7 +35,7 @@ CNote is a web-based PHP MVC application designed for online note-taking. Users 
 
 2. **Database Setup:**
    - Change your database information in [mvc/core/Database.php](mvc/core/Database.php)
-   - Import the provided SQL file (`cnoteDatabase.sql`) into your database.
+   - Import the provided SQL file (`CNote.sql`) into your database.
 
 3. **Run the Application:**
    - Using XAMPP, WampServer,..:
