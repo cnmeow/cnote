@@ -63,8 +63,9 @@ CNote is a web-based PHP MVC application designed for online note-taking. Users 
       <img width="1440" alt="image" src="https://github.com/cnmeow/cnote/assets/73975520/1dd78d09-54e4-4180-9d55-b9d53715ba16">
   - Click Edit button to edit the task note
      <img width="1440" alt="image" src="https://github.com/cnmeow/cnote/assets/73975520/80acd541-8136-4ce1-b18e-bf274fe260a3">
-  - Add individual tasks or import multiple tasks at once by uploading a file. Clicking on the 'Import from file' will download two sample files (txt and xlsx) with instructions on the correct format for importing
-     <img width="1440" alt="image" src="https://github.com/cnmeow/cnote/assets/73975520/3285638f-debf-44c3-8ccf-85e2764dacae">
+  - Add individual tasks or import multiple tasks at once by uploading a file. Clicking on the 'Download Template' will download two sample files (txt and xlsx) with instructions on the correct format for importing. Click 'Import file', choose a file correctly formatted according to the template, and upload.
+     <img width="1084" alt="image" src="https://github.com/cnmeow/cnote/assets/73975520/c7f8179b-fb00-46cf-aa7d-10d3f2fc4225">
+
 
 3. **User Profile Management:**
    - Update your profile information or delete your account in the "Profile" section.
