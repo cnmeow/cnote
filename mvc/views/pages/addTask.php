@@ -3,7 +3,10 @@
 
   <div class="contentContainer">
     <h1 class="txtHeading">Add new task</h1>
-    <button id="btnImportFile" class="importBtn button"> Import from file </button>
+    <div class="importBtnContainer">
+      <button id="btnImportFile" class="importBtn button"> Import from file </button>
+      <button id="downloadTemplate" class="importBtn button"> Download template </button>
+    </div>
     <form id="importContainer" action="/index.php?url=Tasks/importFile" method="post" enctype="multipart/form-data" style="display:none">
       <input type="file" name="fileToUpload" id="fileToUpload" class="selectFileDiv">
       <input type="submit" value="Upload" name="submit" class="uploadBtn button">
@@ -52,20 +55,23 @@
     } else {
       document.getElementById('importContainer').style.display = 'none';
     }
-    var txtUrl = './../public/templateFileForImport/sample.txt'; 
-    var xlsxUrl = './../public/templateFileForImport/sample.xlsx';
-    for (var i = 0; i < 2; i++) {
-        var fileUrl = (i == 0) ? txtUrl : xlsxUrl;
-        var downloadLink = document.createElement('a');
-        downloadLink.href = fileUrl;
-        downloadLink.download = 'sample.' + ((i == 0) ? 'txt' : 'xlsx');
-        document.body.appendChild(downloadLink);
-        downloadLink.click();
-        document.body.removeChild(downloadLink);
-    }
+  });
+  
+  document.getElementById('downloadTemplate').addEventListener('click', function() {
+  var txtUrl = './../public/templateFileForImport/sample.txt'; 
+  var xlsxUrl = './../public/templateFileForImport/sample.xlsx';
+  for (var i = 0; i < 2; i++) {
+      var fileUrl = (i == 0) ? txtUrl : xlsxUrl;
+      var downloadLink = document.createElement('a');
+      downloadLink.href = fileUrl;
+      downloadLink.download = 'sample.' + ((i == 0) ? 'txt' : 'xlsx');
+      document.body.appendChild(downloadLink);
+      downloadLink.click();
+      document.body.removeChild(downloadLink);
+  }
     alert('You have just downloaded two sample files (txt and xlsx). These files serve as templates for your input and import processes.');
   });
-
+  
   <?php if ($data["Error"] != '') : ?>
   alert("Add task failed. " + "<?php echo $data['Error']; ?>");
 <?php endif; ?>
