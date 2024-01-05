@@ -36,6 +36,7 @@ CNote is a web-based PHP MVC application designed for online task note-taking. U
 2. **Database Setup:**
    - Change your database information in [mvc/core/Database.php](mvc/core/Database.php)
    - Import the provided SQL file (`CNote.sql`) into your database.
+   - On line 69 of TaskModel.php, when using PostgreSQL, use 'userid'. However, if you are using MySQL, please change it to 'userId'.
 
 3. **Run the Application:**
    - Using XAMPP, WampServer,..:
