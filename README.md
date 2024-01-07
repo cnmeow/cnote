@@ -29,8 +29,8 @@ CNote is a web-based PHP MVC application designed for online task note-taking. U
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/CNote.git
-   cd CNote
+   git clone https://github.com/cnmeow/cnote.git
+   cd cnote
    ```
 
 2. **Database Setup:**
