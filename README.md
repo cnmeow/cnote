@@ -38,15 +38,10 @@ CNote is a web-based PHP MVC application designed for online task note-taking. U
    - On line 69 of TaskModel.php, when using PostgreSQL, use 'userid'. However, if you are using MySQL, please change it to 'userId'.
 
 3. **Run the Application:**
-   - Using XAMPP, WampServer,..:
-        - Start your local server
-        - Access the application through `http://localhost/index.php?url=Login`.
-          
-   - Using PHP:
-       ```bash
-       php -S 127.0.0.1:2106
-       ```
-       - Access the application through `http://127.0.0.1:2106/index.php?url=Login`.
+   ```bash
+   php -S 127.0.0.1:2106
+   ```
+   - Access the application through [http://127.0.0.1:2106/index.php?url=Login](http://127.0.0.1:2106/index.php?url=Login)
 
 ## Usage
 
